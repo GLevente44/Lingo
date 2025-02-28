@@ -6,25 +6,81 @@
         xmlns:local="clr-namespace:Lingo"
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="500">
-    <Grid Margin="0,0,0,5" Background="#FF15122D">
+    <Grid Margin="0,0,0,5">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF477CFF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="49*"/>
             <ColumnDefinition Width="399*"/>
             <ColumnDefinition Width="49*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="label" Content="Lingo" HorizontalAlignment="Center" Margin="0,57,0,0" VerticalAlignment="Top" FontSize="48" BorderBrush="{Binding AllowDrop, ElementName=label}" FontWeight="Bold" FontStyle="Italic" Opacity="0.9" Foreground="#FF1F7FFF" Grid.Column="1" Height="74" Width="136">
-            <Label.Background>
+        <Label x:Name="label" Content="Lingo" HorizontalAlignment="Center" Margin="0,58,0,0" VerticalAlignment="Top" FontSize="48" BorderBrush="{Binding AllowDrop, ElementName=label}" FontWeight="Bold" FontStyle="Italic" Opacity="0.9" Grid.Column="1" Height="85" Width="133" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="20" AngleY="10"/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+            <Label.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black"/>
-                    <GradientStop Color="#FF6E17F3" Offset="1"/>
+                    <GradientStop Color="#FF4151DE"/>
+                    <GradientStop Color="#FF34CCD0" Offset="1"/>
                 </LinearGradientBrush>
-            </Label.Background>
+            </Label.Foreground>
         </Label>
-        <Label Grid.Column="1" Content="Regisztráció" HorizontalAlignment="Center" Margin="0,159,0,0" VerticalAlignment="Top">
+        <Label Grid.Column="1" Content="Bejelentkezés" HorizontalAlignment="Center" Margin="0,184,0,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold">
             <Label.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
                     <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FF419DAF"/>
+                    <GradientStop Color="#FF395CB3" Offset="0.158"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="textbox1" Grid.Column="1" HorizontalAlignment="Center" Margin="0,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" Foreground="#FF1876E0" FontSize="24" Text="" FontWeight="Bold" FontStyle="Italic"/>
+        <Button Grid.Column="1" Content="Belépés" HorizontalAlignment="Center" Margin="0,483,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.13,0.555" FontSize="25" FontWeight="Bold" Foreground="#FFD9E2EA" Width="133">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF325B7B" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image Grid.Column="1" Height="100" Margin="0,609,0,0" VerticalAlignment="Top" Width="100" Source="/logo_hub.webp" HorizontalAlignment="Center"/>
+        <PasswordBox Grid.Column="2" HorizontalAlignment="Left" Margin="115,-59,0,0" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox Grid.Column="1" HorizontalAlignment="Center" Margin="0,412,0,0" VerticalAlignment="Top" Width="205" Height="34" Foreground="#FF1876E0" FontWeight="Bold" FontStyle="Italic" FontSize="24"/>
+        <Button Grid.Column="1" Content="Nincs fiókja?" HorizontalAlignment="Center" Margin="0,552,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.13,0.555" FontSize="16" FontWeight="Bold" Foreground="#FFCED9E2" Width="133">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF325B7B" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Grid.Column="1" Content="Felhasználónév" HorizontalAlignment="Left" Margin="117,264,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FF419DAF"/>
+                    <GradientStop Color="#FF395CB3" Offset="0.158"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Label Grid.Column="1" Content="Jelszó" HorizontalAlignment="Center" Margin="0,370,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FF419DAF"/>
+                    <GradientStop Color="#FF395CB3" Offset="0.158"/>
                 </LinearGradientBrush>
             </Label.Foreground>
         </Label>

@@ -1,0 +1,16 @@
+U:\GL_IKT\Lingo\bin\Debug\Lingo.exe.config
+U:\GL_IKT\Lingo\bin\Debug\Lingo.exe
+U:\GL_IKT\Lingo\bin\Debug\Lingo.pdb
+U:\GL_IKT\Lingo\obj\Debug\Lingo.csproj.AssemblyReference.cache
+U:\GL_IKT\Lingo\obj\Debug\MainWindow.g.cs
+U:\GL_IKT\Lingo\obj\Debug\App.g.cs
+U:\GL_IKT\Lingo\obj\Debug\Lingo_Content.g.cs
+U:\GL_IKT\Lingo\obj\Debug\Lingo_MarkupCompile.cache
+U:\GL_IKT\Lingo\obj\Debug\Lingo_MarkupCompile.lref
+U:\GL_IKT\Lingo\obj\Debug\MainWindow.baml
+U:\GL_IKT\Lingo\obj\Debug\Lingo.g.resources
+U:\GL_IKT\Lingo\obj\Debug\Lingo.Properties.Resources.resources
+U:\GL_IKT\Lingo\obj\Debug\Lingo.csproj.GenerateResource.cache
+U:\GL_IKT\Lingo\obj\Debug\Lingo.csproj.CoreCompileInputs.cache
+U:\GL_IKT\Lingo\obj\Debug\Lingo.exe
+U:\GL_IKT\Lingo\obj\Debug\Lingo.pdb
