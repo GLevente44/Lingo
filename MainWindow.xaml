@@ -10,7 +10,7 @@
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black"/>
-                <GradientStop Color="#FF477CFF" Offset="1"/>
+                <GradientStop Color="#FF8AA7ED" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.ColumnDefinitions>
@@ -44,7 +44,7 @@
                 </LinearGradientBrush>
             </Label.Foreground>
         </Label>
-        <TextBox x:Name="textbox1" Grid.Column="1" HorizontalAlignment="Center" Margin="0,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" Foreground="#FF1876E0" FontSize="24" Text="" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBox x:Name="textbox1" Grid.Column="1" HorizontalAlignment="Center" Margin="0,311,0,0" TextWrapping="Wrap" Width="205" Foreground="#FF82B7FF" FontSize="24" Text="" FontWeight="Bold" FontStyle="Italic" SelectionBrush="#FF82B7FF" VerticalAlignment="Top"/>
         <Button Grid.Column="1" Content="Belépés" HorizontalAlignment="Center" Margin="0,483,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.13,0.555" FontSize="25" FontWeight="Bold" Foreground="#FFD9E2EA" Width="133">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">

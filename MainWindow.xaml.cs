@@ -22,6 +22,8 @@ namespace Lingo
     {
         public MainWindow()
         {
+
+            
             InitializeComponent();
         }
     }
