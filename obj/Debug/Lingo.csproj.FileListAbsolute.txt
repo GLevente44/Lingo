@@ -47,3 +47,5 @@ U:\GL_IKT\Lingo\bin\Debug\System.Numerics.Vectors.xml
 U:\GL_IKT\Lingo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 U:\GL_IKT\Lingo\bin\Debug\System.Threading.Tasks.Extensions.xml
 U:\GL_IKT\Lingo\obj\Debug\Lingo.csproj.CopyComplete
+U:\GL_IKT\Lingo\obj\Debug\Window1.g.cs
+U:\GL_IKT\Lingo\obj\Debug\Window1.baml

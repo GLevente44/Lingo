@@ -10,7 +10,7 @@
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black"/>
-                <GradientStop Color="#FF8AA7ED" Offset="1"/>
+                <GradientStop Color="#FF15264E" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.ColumnDefinitions>
@@ -44,8 +44,8 @@
                 </LinearGradientBrush>
             </Label.Foreground>
         </Label>
-        <TextBox x:Name="textbox1" Grid.Column="1" HorizontalAlignment="Center" Margin="0,311,0,0" TextWrapping="Wrap" Width="205" Foreground="#FF82B7FF" FontSize="24" Text="" FontWeight="Bold" FontStyle="Italic" SelectionBrush="#FF82B7FF" VerticalAlignment="Top"/>
-        <Button Grid.Column="1" Content="Belépés" HorizontalAlignment="Center" Margin="0,483,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.13,0.555" FontSize="25" FontWeight="Bold" Foreground="#FFD9E2EA" Width="133">
+        <TextBox x:Name="UserNameTxT" Grid.Column="1" HorizontalAlignment="Center" Margin="0,311,0,0" TextWrapping="Wrap" Width="205" Foreground="#FF82B7FF" FontSize="24" Text="" FontWeight="Bold" FontStyle="Italic" SelectionBrush="#FF82B7FF" VerticalAlignment="Top"/>
+        <Button x:Name="LoginBtn" Grid.Column="1" Content="Belépés" HorizontalAlignment="Center" Margin="0,483,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.13,0.555" FontSize="25" FontWeight="Bold" Foreground="#FF148FFD" Width="133" Click="Button_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
@@ -55,8 +55,8 @@
         </Button>
         <Image Grid.Column="1" Height="100" Margin="0,609,0,0" VerticalAlignment="Top" Width="100" Source="/logo_hub.webp" HorizontalAlignment="Center"/>
         <PasswordBox Grid.Column="2" HorizontalAlignment="Left" Margin="115,-59,0,0" VerticalAlignment="Top" Width="120"/>
-        <PasswordBox Grid.Column="1" HorizontalAlignment="Center" Margin="0,412,0,0" VerticalAlignment="Top" Width="205" Height="34" Foreground="#FF1876E0" FontWeight="Bold" FontStyle="Italic" FontSize="24"/>
-        <Button Grid.Column="1" Content="Nincs fiókja?" HorizontalAlignment="Center" Margin="0,552,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.13,0.555" FontSize="16" FontWeight="Bold" Foreground="#FFCED9E2" Width="133">
+        <PasswordBox x:Name="PasswordTxT" Grid.Column="1" HorizontalAlignment="Center" Margin="0,412,0,0" VerticalAlignment="Top" Width="205" Height="34" Foreground="#FF1876E0" FontWeight="Bold" FontStyle="Italic" FontSize="24"/>
+        <Button x:Name="Button_Click" Grid.Column="1" Content="Nincs fiókja?" HorizontalAlignment="Center" Margin="0,552,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.13,0.555" FontSize="16" FontWeight="Bold" Foreground="#FF148FFD" Width="133" Click="Button_Click_1">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
